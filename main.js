@@ -3,7 +3,7 @@ var qrText = "no data"
 var qrc;
 
 // set timer
-var myVar = setInterval(generateClock, 1000);
+var myVar = setInterval(generateClock, 10000);
 
 function generateQRCode(){
     qrc.clear(); // clear the code.
