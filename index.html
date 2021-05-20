@@ -26,6 +26,19 @@
     <br>
     <p id="actualTime"></p>
 
+    <br>
+    <h3>Settings</h3>
+
+    <h5>Interval</h5>
+    <input type="radio" name="interval" "id=" 1s-interval" name="interval" value="1">
+    <label for="1s-interval">1s</label><br>
+    <input type="radio" name="interval" id="10s-interval" name="interval" value="10">
+    <label for="1s-interval">10s</label><br>
+    <input type="radio" name="interval" id="30s-interval" name="interval" value="30">
+    <label for="1s-interval">30s</label><br>
+    <input type="radio" name="interval" id="60s-interval" name="interval" value="60">
+    <label for="60s-interval">60s</label><br>
+    <button type="button" onclick="getIntervalValue()"> Submit interval </button>
 
     <script type="text/javascript">
         start();
