@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<!-- Written bei 10k-resistor github.com/10k-resistor-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>QR-Code-clock</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="./main.js"></script>
+
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="qrcode"></div>
+    <br>
+    <p id="actualTime"></p>
+
+
+    <script type="text/javascript">
+        start();
+    </script>
+
+    <div class="footer">
+        <p>QR-code-clock written by <a href="https://github.com/10k-resistor">10k-resistor</a></p>
+    </div>
+
+</body>
+</html>
