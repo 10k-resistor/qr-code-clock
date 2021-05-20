@@ -5,6 +5,7 @@ var interval = 1;
 // set timer
 var myVar = setInterval(generateClock, interval*1000);
 
+
 function generateQRCode(){
     qrc.clear(); // clear the code.
     qrc.makeCode(qrText); // make another code.
